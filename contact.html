@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Quick Shine Cleaning Services</title>
+    <meta name="description" content="Contact Quick Shine Cleaning Services in Blantyre, Malawi. Request a free cleaning quote or call us directly.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-sparkles logo-icon"></i>
+                <div class="logo-text">
+                    <span class="brand-title">Quick Shine</span>
+                    <span class="brand-sub">Cleaning Services</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="index.html#why-choose-us" class="nav-link">Why Choose Us</a></li>
+                    <li><a href="index.html#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-cta">
+                <a href="tel:+265883688861" class="btn-call">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Call +265 883 688 861</span>
+                </a>
+                <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch for a free estimate or booking inquiry</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="contact-section section-padding">
+            <div class="container contact-grid">
+                <!-- Info Column -->
+                <div class="contact-info reveal-fade-up">
+                    <span class="section-subtitle">GET IN TOUCH</span>
+                    <h2 class="section-title">We'd Love To Hear From You</h2>
+                    <p class="section-description">Reach out via phone, WhatsApp, or form submission below.</p>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <strong>Address</strong>
+                                <p>Masauko Chipembere Hwy, Blantyre, Malawi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p><a href="tel:+265883688861">+265 883 688 861</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fa-solid fa-map-pin"></i>
+                            <div>
+                                <strong>Plus Code</strong>
+                                <p>6238+PC Blantyre, Malawi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Form Column -->
+                <div class="contact-form-card reveal-fade-up">
+                    <h3>Request a Free Quote</h3>
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="Your full name">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="Your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Your email address">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="service">Service Required</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a Service</option>
+                                    <option value="Residential">Residential Cleaning</option>
+                                    <option value="Office">Office Cleaning</option>
+                                    <option value="Deep">Deep Cleaning</option>
+                                    <option value="Commercial">Commercial Cleaning</option>
+                                    <option value="Move">Move-In / Move-Out Cleaning</option>
+                                    <option value="Regular">Regular Cleaning</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" name="date">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="How can we help you?"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">Request a Free Quote</button>
+                        <div id="formFeedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- Luxury Footer -->
+    <footer class="footer">
+        <div class="footer-top-bar"></div>
+        <div class="container">
+            
+            <!-- Luxury Newsletter Card -->
+            <div class="footer-newsletter reveal-fade-up">
+                <div class="newsletter-text">
+                    <h3>Keep Your Space Fresh</h3>
+                    <p>Subscribe to receive cleaning tips, seasonal updates & exclusive offers.</p>
+                </div>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe Now <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+
+            <div class="footer-grid">
+                <!-- Brand Info Column -->
+                <div class="footer-col brand-col">
+                    <a href="index.html" class="logo logo-footer">
+                        <i class="fa-solid fa-sparkles logo-icon"></i>
+                        <div class="logo-text">
+                            <span class="brand-title">Quick Shine</span>
+                            <span class="brand-sub">Cleaning Services</span>
+                        </div>
+                    </a>
+                    <p class="footer-desc">Professional, reliable, and premium cleaning solutions in Blantyre, Malawi. Making homes & commercial spaces fresh and spotless.</p>
+                    <div class="footer-rating-badge">
+                        <div class="badge-stars"><i class="fa-solid fa-star"></i> 5.0 Rating</div>
+                        <span class="badge-sub">Top Cleaning Service in Malawi</span>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Our Services</a></li>
+                        <li><a href="#why-choose-us"><i class="fa-solid fa-chevron-right"></i> Why Choose Us</a></li>
+                        <li><a href="#gallery"><i class="fa-solid fa-chevron-right"></i> Gallery</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div class="footer-col">
+                    <h4 class="footer-title">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Residential Cleaning</a></li>
+                        <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Office Cleaning</a></li>
+                        <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Deep Cleaning</a></li>
+                        <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Commercial Cleaning</a></li>
+                        <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Move-In / Move-Out</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="footer-col contact-col">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="fa-solid fa-location-dot contact-icon"></i>
+                            <span>Masauko Chipembere Hwy,<br>Blantyre, Malawi</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone contact-icon"></i>
+                            <a href="tel:+265883688861">+265 883 688 861</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-map-pin contact-icon"></i>
+                            <span>Plus Code: 6238+PC Blantyre, Malawi</span>
+                        </li>
+                    </ul>
+                    <div class="footer-socials">
+                        <a href="tel:+265883688861" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+                        <a href="https://wa.me/265883688861" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Line & Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 <strong>Quick Shine Cleaning Services</strong>. All Rights Reserved.</p>
+                <button id="backToTop" class="back-to-top" aria-label="Back to Top">
+                    Back to Top <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
